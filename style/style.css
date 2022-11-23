@@ -1,11 +1,21 @@
+body .middle {
+  padding: 60px;
+}
 body .middle p {
   color: rgb(154, 153, 153);
-  padding: 20px 150px 20px 150px;
 }
-body .middle .principal h1 {
-  padding: 20px 50px 30px 50px;
+body .articles h1 {
+  font-size: 20px;
+  padding: 15px;
 }
-body .middle .iconos {
+body .articles h2 {
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+body .principal p {
+  color: rgb(74, 38, 38);
+}
+body .iconos {
   padding: 10px;
 }
 
@@ -33,4 +43,113 @@ body header nav div #contentId ul li {
 body header nav div #contentId ul li a {
   text-decoration: none;
   color: black;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.section__text {
+  padding-bottom: 5vh;
+  padding-left: 7vh;
+}
+
+.section__row {
+  padding-top: 5%;
+}
+
+.image__currency {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.image__currency1 {
+  width: 100%;
+  height: 90%;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.card {
+  margin-bottom: 5%;
+}
+
+footer {
+  background-color: #2d314e;
+  height: 25vh;
+}
+footer .container-fluid {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+footer .container-fluid .image__logo {
+  color: white;
+}
+footer .container-fluid .footer__part1 {
+  align-items: center;
+}
+footer .container-fluid .footer__part2 {
+  color: white;
+}
+footer .container-fluid .footer__part2 ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .container-fluid .footer__part3 {
+  align-items: center;
+}
+footer .container-fluid .footer__part3 .footer__btn {
+  background: linear-gradient(90deg, rgb(41, 211, 115) 32%, rgb(46, 183, 209) 100%);
+  border-radius: 40px;
+  color: white;
+  width: 50%;
+  height: 25%;
+}
+
+@media (max-width: 992px) {
+  .section__text {
+    text-align: center;
+    padding-left: 0;
+    margin-top: 5vh;
+  }
+}
+@media (max-width: 768px) {
+  footer {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  footer .container-fluid {
+    padding: 0;
+  }
+  footer .container-fluid .footer__part1 {
+    margin-bottom: 1%;
+    height: 100%;
+  }
+  footer .container-fluid .footer__part1 .part1__image {
+    padding-bottom: 10px;
+    width: 40%;
+  }
+  footer .container-fluid .footer__part2 {
+    margin-bottom: 1%;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .container-fluid .footer__part2 ul {
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    text-align: center;
+  }
+  footer .container-fluid .footer__part3 {
+    height: 100%;
+  }
+  footer .container-fluid .footer__part3 .footer__btn {
+    width: 30%;
+    height: 60%;
+  }
 }/*# sourceMappingURL=style.css.map */
